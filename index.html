@@ -1,237 +1,119 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Karina Okta Pradina</title>
-
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background-color: #eef1f4;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #333;
-    }
-
-    .cv-container {
-      max-width: 1100px;
-      margin: 40px auto;
-      background-color: #ffffff;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
-    }
-
-    /* HEADER */
-    .cv-header {
-      display: flex;
-      align-items: center;
-      padding: 30px;
-      border-bottom: 2px solid #e5e5e5;
-    }
-
-    .cv-header img {
-      width: 130px;
-      height: 130px;
-      object-fit: cover;
-      margin-right: 25px;
-    }
-
-    .cv-header h1 {
-      font-size: 28px;
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
-
-    .cv-header p {
-      margin-top: 5px;
-      font-size: 15px;
-      color: #777;
-    }
-
-    /* BODY */
-    .cv-body {
-      display: grid;
-      grid-template-columns: 30% 70%;
-    }
-
-    /* SIDEBAR */
-    .sidebar {
-      background-color: #f3f5f7;
-      padding: 25px;
-    }
-
-    .sidebar h3 {
-      font-size: 14px;
-      margin-bottom: 10px;
-      letter-spacing: 1px;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
-    }
-
-    .sidebar p,
-    .sidebar li {
-      font-size: 14px;
-      margin-bottom: 8px;
-      line-height: 1.5;
-    }
-
-    .sidebar ul {
-      padding-left: 18px;
-      margin-bottom: 20px;
-    }
-
-    /* CONTENT */
-    .content {
-      padding: 25px 35px;
-    }
-
-    .content h3 {
-      font-size: 15px;
-      letter-spacing: 1px;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
-    }
-
-    .content p {
-      font-size: 14px;
-      line-height: 1.6;
-      margin-bottom: 15px;
-    }
-
-    .job {
-      margin-bottom: 20px;
-    }
-
-    .job-title {
-      font-weight: bold;
-      font-size: 14px;
-    }
-
-    .job span {
-      font-size: 13px;
-      color: #777;
-    }
-
-    .job ul {
-      padding-left: 18px;
-      margin-top: 8px;
-    }
-
-    .job li {
-      font-size: 14px;
-      margin-bottom: 6px;
-    }
-
-    /* RESPONSIVE */
-    @media(max-width: 768px) {
-      .cv-body {
-        grid-template-columns: 1fr;
-      }
-
-      .cv-header {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .cv-header img {
-        margin-bottom: 15px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karina Okta Pradina</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="cv-container">
+<div class="container">
 
-    <!-- HEADER -->
-    <div class="cv-header">
-      <img src="fajar.jpg" alt="Foto Profil">
-      <div>
-        <h1>KARINA OKTA PRADINA</h1>
-        <p>S1 Manajemen</p>
-      </div>
+   
+    <div class="header">
+        <img src="assets/fajar.jpg" alt="Foto Profil">
+        <div class="header-text">
+            <h1>FAJAR FEBRIANO ADMOSA</h1>
+            <p>S1 Teknik Informatika</p>
+        </div>
     </div>
 
-    <!-- BODY -->
-    <div class="cv-body">
+    <hr>
 
-      <!-- SIDEBAR -->
-      <div class="sidebar">
-        <h3>KONTAK</h3>
-        <p>Whatsapp<br>+62 812 3649 7220</p>
-        <p>LinkedIn<br>Karina Okta Pradina</p>
-        <p>Email<br>jagoibikincv@gmail.com</p>
-        <p>Domisili<br>Jl Banyumanik Utara, Kota Semarang - 50272</p>
+    <div class="content">
 
-        <h3>KEAHLIAN</h3>
-        <ul>
-          <li>Marketing</li>
-          <li>Analisis Data</li>
-          <li>Energik</li>
-          <li>Kreatif</li>
-          <li>Pemecahan Masalah</li>
-          <li>Komunikasi</li>
-        </ul>
+       
+        <div class="sidebar">
 
-        <h3>SOFTWARE</h3>
-        <ul>
-          <li>Microsoft Word</li>
-          <li>Microsoft Excel</li>
-          <li>PowerPoint</li>
-          <li>Canva</li>
-          <li>Capcut</li>
-        </ul>
+            <div class="box">
+                <h3>KONTAK</h3>
+                <p><strong>Whatsapp</strong><br>+62 831 8581 2021</p>
+                <p><strong>LinkedIn</strong><br>Fajar Febriano Admosa</p>
+                <p><strong>Email</strong><br>pajayy@gmail.com</p>
+                <p><strong>Domisili</strong><br>Komp.Interkota Indah C6 No.12- 50272</p>
+            </div>
 
-        <h3>PENDIDIKAN</h3>
-        <p><strong>S1 Manajemen</strong><br>
-        Universitas Diponegoro<br>
-        2015 - 2019<br>
-        IPK Akhir 3.55</p>
-      </div>
+            <div class="box">
+                <h3>KEAHLIAN</h3>
+                <ul>
+                    <li>Webdepelopment</li>
+                    <li>UI/UX</li>
+                    <li>Datebase</li>
+                    <li>Mobile</li>
+                    <li>Syber Scurity</li>
+                    <li>Date Sains</li>
+                </ul>
+            </div>
 
-      <!-- CONTENT -->
-      <div class="content">
-        <h3>PROFIL</h3>
-        <p>Halo, saya Karina lulusan S1 Manajemen dari Universitas Diponegoro Semarang. Saya memiliki pengalaman sebagai KOL Specialist dan tertarik pada dunia pemasaran digital. Saya mampu bekerja secara mandiri maupun dalam tim, energik, mudah beradaptasi, dan mampu bekerja dalam sistem target.</p>
+            <div class="box">
+                <h3>SOFTWARE</h3>
+                <ul>
+                    <li>Microsoft Word</li>
+                    <li>Microsoft Excel</li>
+                    <li>PowerPoint</li>
+                    <li>Canva</li>
+                    <li>Capcut</li>
+                </ul>
+            </div>
 
-        <h3>PENGALAMAN KERJA</h3>
+            <div class="box">
+                <h3>PENDIDIKAN</h3>
+                <p><strong>S1 Teknik Informatika</strong><br>
+                Institut Teknologi PLN<br>
+                2024 - 2028<br>
+                IPK Akhir 3.98</p>
+            </div>
 
-        <div class="job">
-          <div class="job-title">Waiters</div>
-          <span>Resto Ikan Bakar Sedap Selera Rakyat | 2020 - 2023</span>
-          <ul>
-            <li>Menyapa pelanggan yang datang</li>
-            <li>Menyajikan menu dan memberikan informasi produk</li>
-            <li>Menyiapkan dan membersihkan peralatan makan</li>
-            <li>Menerima pesanan dengan tepat dan akurat</li>
-            <li>Mengomunikasikan pesanan kepada kitchen crew</li>
-          </ul>
         </div>
 
-        <div class="job">
-          <div class="job-title">KOL</div>
-          <span>Media Iklan Indonesia | 2019 - 2020</span>
-          <ul>
-            <li>Mengelola komunikasi dan hubungan dengan KOL</li>
-            <li>Melakukan riset dan identifikasi KOL</li>
-            <li>Menyusun dan mengelola campaign digital</li>
-            <li>Monitoring performa campaign</li>
-          </ul>
+       
+        <div class="main">
+
+            <div class="section">
+                <h3>PROFIL</h3>
+                <p>
+                    Hallo, saya Fajar lulusan S1 Teknik Informatika dari Institut Teknologi PLN Jakarta Barat,
+                    saya memiliki pengalaman sebagai Mastering UI/UX, dan terakhir saya memiliki
+                    pengalaman Date Sains. Saya merupakan kandidat yang tergolong
+                    semangat dan bertanggung jawab dalam bekerja, selain itu saya juga merupakan
+                    kandidat yang aktif, energik, mudah beradaptasi, dan mampu bekerja dalam sistem target.
+                </p>
+            </div>
+
+            <div class="section">
+                <h3>PENGALAMAN KERJA</h3>
+
+                <div class="job">
+                    <h4>Waiters <span>2023</span></h4>
+                    <p><strong>Mastering UI/UX</strong></p>
+                    <ul>
+                        <li>Pernah bekerja di TokoPedia sebagai desainer UI/UX</li>
+                        <li>Pernah bekerja di Shopee sebagai desainer UI/UX</li>
+                       
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h4>Date Sains <span>2024</span></h4>
+                    <p><strong>Media Iklan Indonesia</strong></p>
+                    <ul>
+                        <li>Pernah berkerja di Lab Kemenkes</li>
+                        <li>Pernah bekerja di di PT.Bukit Asam</li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>PELATIHAN KERJA</h3>
+                <p><strong> Peserta Mastering UI/UX</strong> – Institut Teknologi PLN</p>
+                <p>Mengenal dan mempelajari UI/UX</p>
+            </div>
+
         </div>
-
-        <h3>PELATIHAN KERJA</h3>
-        <p><strong>Peserta Public Speaking</strong><br>
-        PT Media Pelatihan Karirmu Indonesia | 2022<br>
-        Mempelajari teknik perkenalan dan berbicara di depan umum</p>
-      </div>
-
     </div>
-  </div>
+</div>
 
 </body>
 </html>
