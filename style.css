@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header-text p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 30%;
+}
+
+.box {
+    background-color: #eef1f4;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.box h3 {
+    margin-top: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.box ul {
+    padding-left: 20px;
+}
+
+/* MAIN */
+.main {
+    width: 70%;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h3 {
+    background-color: #eef1f4;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.job h4 {
+    margin-bottom: 5px;
+}
+
+.job span {
+    float: right;
+    font-size: 12px;
+    color: #666;
+}
+
+.job ul {
+    padding-left: 20px;
+}
+
+/* RESPONSIVE MOBILE */
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .sidebar,
+    .main {
+        width: 100%;
+    }
+
+    .header img {
+        width: 180px;
+        height: auto;
+    }
+}
